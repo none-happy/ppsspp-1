@@ -326,17 +326,17 @@ void GamePauseScreen::CreateViews() {
 
 	std::string gameId = g_paramSFO.GetDiscID();
 	if (g_Config.hasGameConfig(gameId)) {
-		rightColumnItems->Add(new Choice(pa->T("Game Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
-		rightColumnItems->Add(new Choice(pa->T("Delete Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnDeleteConfig);
+		//rightColumnItems->Add(new Choice(pa->T("Game Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
+		//rightColumnItems->Add(new Choice(pa->T("Delete Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnDeleteConfig);
 	} else {
-		rightColumnItems->Add(new Choice(pa->T("Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
-		rightColumnItems->Add(new Choice(pa->T("Create Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnCreateConfig);
+		//rightColumnItems->Add(new Choice(pa->T("Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
+		//rightColumnItems->Add(new Choice(pa->T("Create Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnCreateConfig);
 	}
-	UI::Choice *displayEditor_ = rightColumnItems->Add(new Choice(gr->T("Display Layout && Effects")));
+	/*UI::Choice *displayEditor_ = rightColumnItems->Add(new Choice(gr->T("Display Layout && Effects")));
 	displayEditor_->OnClick.Add([&](UI::EventParams &) -> UI::EventReturn {
 		screenManager()->push(new DisplayLayoutScreen(gamePath_));
 		return UI::EVENT_DONE;
-	});
+	});*/
 	if (g_Config.bEnableCheats) {
 		rightColumnItems->Add(new Choice(pa->T("Cheats")))->OnClick.Handle(this, &GamePauseScreen::OnCwCheat);
 	}
@@ -345,14 +345,14 @@ void GamePauseScreen::CreateViews() {
 	// Based on their platform or even cpu/gpu/config.  Would add an API for it.
 	if (Reporting::IsSupported() && g_paramSFO.GetValueString("DISC_ID").size()) {
 		auto rp = GetI18NCategory("Reporting");
-		rightColumnItems->Add(new Choice(rp->T("ReportButton", "Report Feedback")))->OnClick.Handle(this, &GamePauseScreen::OnReportFeedback);
+		//rightColumnItems->Add(new Choice(rp->T("ReportButton", "Report Feedback")))->OnClick.Handle(this, &GamePauseScreen::OnReportFeedback);
 	}
 	rightColumnItems->Add(new Spacer(25.0));
 	if (g_Config.bPauseMenuExitsEmulator) {
 		auto mm = GetI18NCategory("MainMenu");
-		rightColumnItems->Add(new Choice(mm->T("Exit")))->OnClick.Handle(this, &GamePauseScreen::OnExitToMenu);
+		rightColumnItems->Add(new Choice(mm->T("Exit")))->OnClick.Handle(this, &GamePauseScreen::OnExit);
 	} else {
-		rightColumnItems->Add(new Choice(pa->T("Exit to menu")))->OnClick.Handle(this, &GamePauseScreen::OnExitToMenu);
+		rightColumnItems->Add(new Choice(pa->T("Exit to menu")))->OnClick.Handle(this, &GamePauseScreen::OnExit);
 	}
 }
 
@@ -396,6 +396,19 @@ UI::EventReturn GamePauseScreen::OnExitToMenu(UI::EventParams &e) {
 	} else {
 		TriggerFinish(DR_OK);
 	}
+	return UI::EVENT_DONE;
+}
+
+UI::EventReturn GamePauseScreen::OnExit(UI::EventParams &e) {
+	// Let's make sure the config was saved, since it may not have been.
+	if (!g_Config.Save("MainScreen::OnExit")) {
+		System_SendMessage("toast", "Failed to save settings!\nCheck permissions, or try to restart the device.");
+	}
+
+	// Request the framework to exit cleanly.
+	System_SendMessage("finish", "");
+
+	UpdateUIState(UISTATE_EXIT);
 	return UI::EVENT_DONE;
 }
 

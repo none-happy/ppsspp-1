@@ -49,6 +49,8 @@ private:
 	UI::EventReturn OnExitToMenu(UI::EventParams &e);
 	UI::EventReturn OnReportFeedback(UI::EventParams &e);
 
+	UI::EventReturn OnExit(UI::EventParams &e);
+
 	UI::EventReturn OnRewind(UI::EventParams &e);
 	UI::EventReturn OnLoadUndo(UI::EventParams &e);
 	UI::EventReturn OnLastSaveUndo(UI::EventParams &e);
