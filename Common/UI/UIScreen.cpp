@@ -164,6 +164,8 @@ void UIScreen::touch(const TouchInput &touch) {
 
 bool UIScreen::key(const KeyInput &key) {
 	if (root_) {
+		//printf("rile\n");
+		//key.
 		return UI::KeyEvent(key, root_);
 	}
 	return false;
@@ -174,6 +176,7 @@ void UIScreen::TriggerFinish(DialogResult result) {
 }
 
 bool UIDialogScreen::key(const KeyInput &key) {
+	printf("rile\n");
 	bool retval = UIScreen::key(key);
 	if (!retval && (key.flags & KEY_DOWN) && UI::IsEscapeKey(key)) {
 		if (finished_) {
@@ -241,6 +244,7 @@ void PopupScreen::touch(const TouchInput &touch) {
 }
 
 bool PopupScreen::key(const KeyInput &key) {
+	printf("rile1\n");
 	if (key.flags & KEY_DOWN) {
 		if ((key.keyCode == NKCODE_ENTER || key.keyCode == NKCODE_NUMPAD_ENTER) && defaultButton_) {
 			UI::EventParams e{};
@@ -317,6 +321,7 @@ void PopupScreen::TriggerFinish(DialogResult result) {
 }
 
 void PopupScreen::CreateViews() {
+	printf("tanbchulailailaitanbchulailailai111\n");
 	using namespace UI;
 	UIContext &dc = *screenManager()->getUIContext();
 

@@ -91,16 +91,24 @@ void ScreenManager::touch(const TouchInput &touch) {
 }
 
 bool ScreenManager::key(const KeyInput &key) {
+	//key.
+	printf("11111\n");
+	//key.keyCode = 193;
+	//std::cout << "key:" << key.keyCode << "\n";
 	std::lock_guard<std::recursive_mutex> guard(inputLock_);
 	bool result = false;
+
 	// Send key up to every screen layer, to avoid stuck keys.
 	if (key.flags & KEY_UP) {
+		printf("keykeu up:%d %d\n", key.keyCode, result);
 		for (auto &layer : stack_) {
 			result = layer.screen->key(key);
 		}
 	} else if (!stack_.empty()) {
 		result = stack_.back().screen->key(key);
+		printf("keykeu down:%d %d\n", key.keyCode, result);
 	}
+	printf("keykeu:%d %d\n", key.keyCode, result);
 	return result;
 }
 

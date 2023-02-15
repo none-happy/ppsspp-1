@@ -170,6 +170,7 @@ static void SetPSPAnalog(int stick, float x, float y) {
 
 EmuScreen::EmuScreen(const Path &filename)
 	: gamePath_(filename) {
+	printf("filename.c_str():%s\n", filename.c_str());
 	saveStateSlot_ = SaveState::GetCurrentSlot();
 	__DisplayListenVblank(__EmuScreenVblank);
 	frameStep_ = false;
@@ -586,7 +587,8 @@ void EmuScreen::touch(const TouchInput &touch) {
 
 void EmuScreen::onVKeyDown(int virtualKeyCode) {
 	auto sc = GetI18NCategory("Screen");
-
+	printf("virtualKeyCodevirtualKeyCode:%d\n", virtualKeyCode);
+	//virtualKeyCode = VIRTKEY_PAUSE;
 	switch (virtualKeyCode) {
 	case VIRTKEY_FASTFORWARD:
 		if (coreState == CORE_STEPPING) {
@@ -622,9 +624,11 @@ void EmuScreen::onVKeyDown(int virtualKeyCode) {
 		}
 		break;
 
-	case VIRTKEY_PAUSE:
+	case VIRTKEY_PAUSE: {
+		printf("wunaozheli\n");
 		pauseTrigger_ = true;
 		break;
+	}
 
 	case VIRTKEY_FRAME_ADVANCE:
 		// If game is running, pause emulation immediately. Otherwise, advance a single frame.

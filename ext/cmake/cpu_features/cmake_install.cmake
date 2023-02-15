@@ -1,4 +1,4 @@
-# Install script for directory: /home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features
+# Install script for directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,14 +38,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/lib/libcpu_features.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/lib/libcpu_features.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cpu_features" TYPE FILE FILES
-    "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/../../cpu_features/include/cpu_features_macros.h"
-    "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/../../cpu_features/include/cpu_features_cache_info.h"
-    "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/../../cpu_features/include/cpuinfo_x86.h"
+    "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/../../cpu_features/include/cpu_features_macros.h"
+    "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/../../cpu_features/include/cpu_features_cache_info.h"
+    "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/../../cpu_features/include/cpuinfo_x86.h"
     )
 endif()
 
@@ -53,7 +53,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPON
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake"
-         "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake")
+         "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures/CpuFeaturesTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -62,16 +62,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPON
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures" TYPE FILE FILES "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures" TYPE FILE FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures" TYPE FILE FILES "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures" TYPE FILE FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/CMakeFiles/Export/lib/cmake/CpuFeatures/CpuFeaturesTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/CpuFeatures" TYPE FILE FILES
-    "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/CpuFeaturesConfig.cmake"
-    "/home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/cmake/cpu_features/CpuFeaturesConfigVersion.cmake"
+    "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/CpuFeaturesConfig.cmake"
+    "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/cmake/cpu_features/CpuFeaturesConfigVersion.cmake"
     )
 endif()
 

@@ -74,6 +74,7 @@ protected:
 	bool ShowButtons() const override { return true; }
 
 	void CreatePopupContents(UI::ViewGroup *parent) override {
+		printf("CreateViewsCreateViews%s\n");
 		using namespace UI;
 		auto pa = GetI18NCategory("Pause");
 		auto di = GetI18NCategory("Dialog");
@@ -262,6 +263,7 @@ GamePauseScreen::~GamePauseScreen() {
 }
 
 void GamePauseScreen::CreateViews() {
+	printf("tanbchulailailai\n");
 	static const int NUM_SAVESLOTS = 5;
 
 	using namespace UI;

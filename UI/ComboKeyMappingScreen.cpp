@@ -127,7 +127,7 @@ void ComboKeyScreen::CreateViews() {
 	root_->Add(root__);
 	LinearLayout *leftColumn = new LinearLayout(ORIENT_VERTICAL, new LinearLayoutParams(120, FILL_PARENT));
 	auto di = GetI18NCategory("Dialog");
-
+	printf("hahaha\n");
 	ConfigCustomButton* cfg = nullptr;
 	bool* show = nullptr;
 	memset(array, 0, sizeof(array));

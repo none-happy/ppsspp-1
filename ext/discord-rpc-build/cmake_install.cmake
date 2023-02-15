@@ -1,4 +1,4 @@
-# Install script for directory: /home/happy/Desktop/4.3-ng-joy/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/ppsspp-1/ext/discord-rpc-build
+# Install script for directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/discord-rpc-build
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

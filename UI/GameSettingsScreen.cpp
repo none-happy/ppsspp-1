@@ -676,7 +676,7 @@ void GameSettingsScreen::CreateAudioSettings(UI::ViewGroup *audioSettings) {
 
 void GameSettingsScreen::CreateControlsSettings(UI::ViewGroup *controlsSettings) {
 	using namespace UI;
-
+	printf("ZHEG JIEMIAN\n");
 	auto co = GetI18NCategory("Controls");
 	auto ms = GetI18NCategory("MainSettings");
 
@@ -752,6 +752,7 @@ void GameSettingsScreen::CreateControlsSettings(UI::ViewGroup *controlsSettings)
 	}
 
 	if (deviceType != DEVICE_TYPE_VR) {
+		printf("kongzhijiuemina\n");
 		controlsSettings->Add(new ItemHeader(co->T("Keyboard", "Keyboard Control Settings")));
 #if defined(USING_WIN_UI)
 		controlsSettings->Add(new CheckBox(&g_Config.bIgnoreWindowsKey, co->T("Ignore Windows Key")));

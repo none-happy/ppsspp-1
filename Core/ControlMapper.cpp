@@ -10,6 +10,9 @@
 #include "Core/CoreParameter.h"
 #include "Core/System.h"
 
+static int prevKay = 0;
+static int currentKey = 0;
+
 static float MapAxisValue(float v) {
 	const float deadzone = g_Config.fAnalogDeadzone;
 	const float invDeadzone = g_Config.fAnalogInverseDeadzone;
@@ -94,6 +97,7 @@ void ControlMapper::SetPSPAxis(int device, char axis, float value, int stick) {
 
 bool ControlMapper::Key(const KeyInput &key, bool *pauseTrigger) {
 	std::vector<int> pspKeys;
+	printf("hahahahaha\n");
 	KeyMap::KeyToPspButton(key.deviceId, key.keyCode, &pspKeys);
 
 	if (pspKeys.size() && (key.flags & KEY_IS_REPEAT)) {
@@ -101,11 +105,15 @@ bool ControlMapper::Key(const KeyInput &key, bool *pauseTrigger) {
 		return true;
 	}
 
+	printf("fanui1\n");
+	//if()
+
 	for (size_t i = 0; i < pspKeys.size(); i++) {
 		pspKey(key.deviceId, pspKeys[i], key.flags);
 	}
 
-	DEBUG_LOG(SYSTEM, "Key: %d DeviceId: %d", key.keyCode, key.deviceId);
+	//DEBUG_LOG(SYSTEM, "Key: %d DeviceId: %d", key.keyCode, key.deviceId);
+	printf("Key: %d DeviceId: %d\n", key.keyCode, key.deviceId);
 
 	if (!pspKeys.size() || key.deviceId == DEVICE_ID_DEFAULT) {
 		if ((key.flags & KEY_DOWN) && key.keyCode == NKCODE_BACK) {
@@ -113,7 +121,7 @@ bool ControlMapper::Key(const KeyInput &key, bool *pauseTrigger) {
 			return true;
 		}
 	}
-
+	//printf("fanui1\n");
 	return pspKeys.size() > 0;
 }
 
@@ -204,10 +212,39 @@ void ControlMapper::pspKey(int deviceId, int pspKeyCode, int flags) {
 		break;
 	}
 
+	if (flags & KEY_UP) {
+		prevKay = 0;
+		currentKey = 0;
+	}
+	//printf("ssssssssssss\n");
+	if(pspKeyCode == 1 || pspKeyCode == 8) {
+		if (flags & KEY_DOWN) {
+			if(prevKay == 1 && currentKey == 0) {
+				printf("ZHECAISHISHISHI1111\n");
+				currentKey = 8;
+			}
+		}
+		if (flags & KEY_DOWN) {
+			if(prevKay == 0 && currentKey == 0) {
+				printf("ZHECAISHISHISHI\n");
+				prevKay = 1;
+			}
+		}
+		if (flags & KEY_DOWN) {
+			if(prevKay == 1 && currentKey == 8) {
+				pspKeyCode = 1073741831;
+			}
+		}
+	}
+
+	//pspKeyCode = 1073741831;
+	printf("pspKeyCodepspKeyCode0:%d\n", pspKeyCode);
 	for (int i = 0; i < rotations; i++) {
 		pspKeyCode = RotatePSPKeyCode(pspKeyCode);
 	}
 
+	printf("pspKeyCodepspKeyCode1:%d\n", pspKeyCode);
+	printf("VIRTKEY_FIRST:%d\n", VIRTKEY_FIRST);
 	if (pspKeyCode >= VIRTKEY_FIRST) {
 		int vk = pspKeyCode - VIRTKEY_FIRST;
 		if (flags & KEY_DOWN) {
