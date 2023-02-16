@@ -89,8 +89,8 @@ int get_GameInfo2(char* pGameId)
 {
 	int iLen=0;
 #if !WIN32
-	//iLen=GetCpuIdByAsm_arm(pGameId);
-	iLen=GetCpuIdByAsm_x86(pGameId);
+	iLen=GetCpuIdByAsm_arm(pGameId);
+	//iLen=GetCpuIdByAsm_x86(pGameId);
 	//printf("pGameIdpGameIdpGameId:%s\n", pGameId);
 	//printf("pGameId:%s\n", pGameId);
 #else
