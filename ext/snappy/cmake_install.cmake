@@ -1,4 +1,4 @@
-# Install script for directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/ext/snappy
+# Install script for directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/ext/snappy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

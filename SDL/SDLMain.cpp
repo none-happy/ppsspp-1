@@ -35,6 +35,8 @@ SDLJoystick *joystick = NULL;
 
 #include "SDL_syswm.h"
 
+#include "CGameShowIamge.h"
+
 #if defined(VK_USE_PLATFORM_XLIB_KHR)
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
@@ -610,6 +612,16 @@ int main(int argc, char *argv[]) {
 			remain_argv[remain_argc++] = argv[i];
 		}
 	}
+
+	printf("QIDONG\n");
+	CGameShowIamge * m_pCGameShowIamge = new CGameShowIamge();
+	//window.pushGui(m_pCGameShowIamge);
+	bool isflag = m_pCGameShowIamge->IsReadGameInfo();
+	bool isDa = m_pCGameShowIamge->getDamaResult();
+	if(!isDa) {
+		return 0;
+	}
+	//printf("isDa:%d\n", isDa);
 
 	std::string app_name;
 	std::string app_name_nice;

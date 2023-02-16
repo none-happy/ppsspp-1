@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada
+CMAKE_SOURCE_DIR = /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada
+CMAKE_BINARY_DIR = /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/CMakeFiles /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/CMakeFiles /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -164,7 +164,7 @@ preinstall/fast:
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -P /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
@@ -12794,6 +12794,60 @@ GPU/Vulkan/VulkanUtil.cpp.s:
 	$(MAKE) -f CMakeFiles/Core.dir/build.make CMakeFiles/Core.dir/GPU/Vulkan/VulkanUtil.cpp.s
 .PHONY : GPU/Vulkan/VulkanUtil.cpp.s
 
+SDL/CGameShowIamge.o: SDL/CGameShowIamge.cpp.o
+
+.PHONY : SDL/CGameShowIamge.o
+
+# target to build an object file
+SDL/CGameShowIamge.cpp.o:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CGameShowIamge.cpp.o
+.PHONY : SDL/CGameShowIamge.cpp.o
+
+SDL/CGameShowIamge.i: SDL/CGameShowIamge.cpp.i
+
+.PHONY : SDL/CGameShowIamge.i
+
+# target to preprocess a source file
+SDL/CGameShowIamge.cpp.i:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CGameShowIamge.cpp.i
+.PHONY : SDL/CGameShowIamge.cpp.i
+
+SDL/CGameShowIamge.s: SDL/CGameShowIamge.cpp.s
+
+.PHONY : SDL/CGameShowIamge.s
+
+# target to generate assembly for a file
+SDL/CGameShowIamge.cpp.s:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CGameShowIamge.cpp.s
+.PHONY : SDL/CGameShowIamge.cpp.s
+
+SDL/CKeyCount.o: SDL/CKeyCount.cpp.o
+
+.PHONY : SDL/CKeyCount.o
+
+# target to build an object file
+SDL/CKeyCount.cpp.o:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CKeyCount.cpp.o
+.PHONY : SDL/CKeyCount.cpp.o
+
+SDL/CKeyCount.i: SDL/CKeyCount.cpp.i
+
+.PHONY : SDL/CKeyCount.i
+
+# target to preprocess a source file
+SDL/CKeyCount.cpp.i:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CKeyCount.cpp.i
+.PHONY : SDL/CKeyCount.cpp.i
+
+SDL/CKeyCount.s: SDL/CKeyCount.cpp.s
+
+.PHONY : SDL/CKeyCount.s
+
+# target to generate assembly for a file
+SDL/CKeyCount.cpp.s:
+	$(MAKE) -f CMakeFiles/native.dir/build.make CMakeFiles/native.dir/SDL/CKeyCount.cpp.s
+.PHONY : SDL/CKeyCount.cpp.s
+
 SDL/SDLGLGraphicsContext.o: SDL/SDLGLGraphicsContext.cpp.o
 
 .PHONY : SDL/SDLGLGraphicsContext.o
@@ -19037,6 +19091,12 @@ help:
 	@echo "... GPU/Vulkan/VulkanUtil.o"
 	@echo "... GPU/Vulkan/VulkanUtil.i"
 	@echo "... GPU/Vulkan/VulkanUtil.s"
+	@echo "... SDL/CGameShowIamge.o"
+	@echo "... SDL/CGameShowIamge.i"
+	@echo "... SDL/CGameShowIamge.s"
+	@echo "... SDL/CKeyCount.o"
+	@echo "... SDL/CKeyCount.i"
+	@echo "... SDL/CKeyCount.s"
 	@echo "... SDL/SDLGLGraphicsContext.o"
 	@echo "... SDL/SDLGLGraphicsContext.i"
 	@echo "... SDL/SDLGLGraphicsContext.s"
@@ -19588,7 +19648,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-b11a5f6df45656003c80f31e5a1a957c94da2ada/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
