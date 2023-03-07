@@ -29,7 +29,7 @@ using namespace std;
 #endif
 
 //std::string filePath = "/storage/font/";
-std::string esKeyPath = "/storage/es_key";
+std::string esKeyPath = "/storage/game/autoconfig/dinput/es_key";
 //std::string filePath = "./font/";
 //std::string esKeyPath = "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/emuelec-emulationstation/emuelec-emulationstation-ae2850d70751a4c468af6e700cd0394e9bec275a/es_key";
 bool g_bIsKeySuc=false;
