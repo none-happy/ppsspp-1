@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/ext
-# Build directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/ext
+# Source directory: /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext
+# Build directory: /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

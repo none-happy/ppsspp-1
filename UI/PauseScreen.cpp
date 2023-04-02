@@ -328,10 +328,10 @@ void GamePauseScreen::CreateViews() {
 
 	std::string gameId = g_paramSFO.GetDiscID();
 	if (g_Config.hasGameConfig(gameId)) {
-		//rightColumnItems->Add(new Choice(pa->T("Game Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
+		rightColumnItems->Add(new Choice(pa->T("Game Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
 		//rightColumnItems->Add(new Choice(pa->T("Delete Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnDeleteConfig);
 	} else {
-		//rightColumnItems->Add(new Choice(pa->T("Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
+		rightColumnItems->Add(new Choice(pa->T("Settings")))->OnClick.Handle(this, &GamePauseScreen::OnGameSettings);
 		//rightColumnItems->Add(new Choice(pa->T("Create Game Config")))->OnClick.Handle(this, &GamePauseScreen::OnCreateConfig);
 	}
 	/*UI::Choice *displayEditor_ = rightColumnItems->Add(new Choice(gr->T("Display Layout && Effects")));

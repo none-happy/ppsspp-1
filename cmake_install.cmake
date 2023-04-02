@@ -1,4 +1,4 @@
-# Install script for directory: /home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf
+# Install script for directory: /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -37,6 +37,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PPSSPPSDL" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PPSSPPSDL")
@@ -44,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PPSSPPSDL"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/PPSSPPSDL")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/PPSSPPSDL")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PPSSPPSDL" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PPSSPPSDL")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -54,28 +59,28 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ppsspp" TYPE DIRECTORY FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/assets" REGEX "/\\.git[^/]*$" EXCLUDE REGEX "/mime$" EXCLUDE REGEX "/lang\\/README\\.md$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ppsspp" TYPE DIRECTORY FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/assets" REGEX "/\\.git[^/]*$" EXCLUDE REGEX "/mime$" EXCLUDE REGEX "/lang\\/README\\.md$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE RENAME "PPSSPPSDL.desktop" FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/ppsspp.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/applications" TYPE FILE RENAME "PPSSPPSDL.desktop" FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ppsspp.desktop")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons" TYPE DIRECTORY FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/icons/hicolor")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons" TYPE DIRECTORY FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/icons/hicolor")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps" TYPE FILE RENAME "ppsspp.svg" FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/icons/icon-512.svg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icons/hicolor/scalable/apps" TYPE FILE RENAME "ppsspp.svg" FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/icons/icon-512.svg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mime/packages" TYPE FILE FILES "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/assets/mime/ppsspp.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mime/packages" TYPE FILE FILES "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/assets/mime/ppsspp.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/ext/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/cmake_install.cmake")
 
 endif()
 
@@ -87,5 +92,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/happy/Desktop/EmuELEC-zhang/EmuELEC/sources/PPSSPPSDL/PPSSPPSDL-9817567c85a7d4de55feeffe81d75e814b6c48cf/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

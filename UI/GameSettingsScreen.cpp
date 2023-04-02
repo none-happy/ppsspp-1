@@ -249,7 +249,7 @@ void GameSettingsScreen::CreateViews() {
 	LinearLayout *graphicsSettings = AddTab("GameSettingsGraphics", ms->T("Graphics"));
 	CreateGraphicsSettings(graphicsSettings);
 
-	LinearLayout *controlsSettings = AddTab("GameSettingsControls", ms->T("Controls"));
+	/*LinearLayout *controlsSettings = AddTab("GameSettingsControls", ms->T("Controls"));
 	CreateControlsSettings(controlsSettings);
 
 	LinearLayout *audioSettings = AddTab("GameSettingsAudio", ms->T("Audio"));
@@ -263,7 +263,7 @@ void GameSettingsScreen::CreateViews() {
 
 	LinearLayout *systemSettings = AddTab("GameSettingsSystem", ms->T("System"));
 	systemSettings->SetSpacing(0);
-	CreateSystemSettings(systemSettings);
+	CreateSystemSettings(systemSettings);*/
 
 	int deviceType = System_GetPropertyInt(SYSPROP_DEVICE_TYPE);
 	if (deviceType == DEVICE_TYPE_VR) {
@@ -274,21 +274,7 @@ void GameSettingsScreen::CreateViews() {
 #if !defined(MOBILE_DEVICE) || PPSSPP_PLATFORM(ANDROID)
 	// Hide search if screen is too small.
 	if (dp_xres < dp_yres || dp_yres >= 500) {
-		auto se = GetI18NCategory("Search");
-		// Search
-		LinearLayout *searchSettings = AddTab("GameSettingsSearch", ms->T("Search"), true);
-
-		searchSettings->Add(new ItemHeader(se->T("Find settings")));
-		if (System_GetPropertyBool(SYSPROP_HAS_KEYBOARD)) {
-			searchSettings->Add(new ChoiceWithValueDisplay(&searchFilter_, se->T("Filter"), (const char *)nullptr))->OnClick.Handle(this, &GameSettingsScreen::OnChangeSearchFilter);
-		} else {
-			searchSettings->Add(new PopupTextInputChoice(&searchFilter_, se->T("Filter"), "", 64, screenManager()))->OnChange.Handle(this, &GameSettingsScreen::OnChangeSearchFilter);
-		}
-		clearSearchChoice_ = searchSettings->Add(new Choice(se->T("Clear filter")));
-		clearSearchChoice_->OnClick.Handle(this, &GameSettingsScreen::OnClearSearchFilter);
-		noSearchResults_ = searchSettings->Add(new TextView(se->T("No settings matched '%1'"), new LinearLayoutParams(Margins(20, 5))));
-
-		ApplySearchFilter();
+		
 	}
 #endif
 }
@@ -346,8 +332,8 @@ void GameSettingsScreen::CreateGraphicsSettings(UI::ViewGroup *graphicsSettings)
 	int deviceType = System_GetPropertyInt(SYSPROP_DEVICE_TYPE);
 
 	if (deviceType != DEVICE_TYPE_VR) {
-		CheckBox *softwareGPU = graphicsSettings->Add(new CheckBox(&g_Config.bSoftwareRendering, gr->T("Software Rendering", "Software Rendering (slow)")));
-		softwareGPU->SetEnabled(!PSP_IsInited());
+		//CheckBox *softwareGPU = graphicsSettings->Add(new CheckBox(&g_Config.bSoftwareRendering, gr->T("Software Rendering", "Software Rendering (slow)")));
+		//softwareGPU->SetEnabled(!PSP_IsInited());
 	}
 
 	if (draw->GetDeviceCaps().multiSampleLevelsMask != 1) {

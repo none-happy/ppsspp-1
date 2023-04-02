@@ -619,7 +619,7 @@ int main(int argc, char *argv[]) {
 	bool isflag = m_pCGameShowIamge->IsReadGameInfo();
 	bool isDa = m_pCGameShowIamge->getDamaResult();
 	if(!isDa) {
-		return 0;
+		//return 0;
 	}
 	//printf("isDa:%d\n", isDa);
 
