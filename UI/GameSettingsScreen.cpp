@@ -44,7 +44,7 @@
 #include "UI/MiscScreens.h"
 #include "UI/ControlMappingScreen.h"
 #include "UI/DevScreens.h"
-#include "UI/DisplayLayoutScreen.h"
+#include "UI/DisplayLayoutScreen.h"f
 #include "UI/RemoteISOScreen.h"
 #include "UI/SavedataScreen.h"
 #include "UI/TouchControlLayoutScreen.h"
@@ -249,10 +249,10 @@ void GameSettingsScreen::CreateViews() {
 	LinearLayout *graphicsSettings = AddTab("GameSettingsGraphics", ms->T("Graphics"));
 	CreateGraphicsSettings(graphicsSettings);
 
-	/*LinearLayout *controlsSettings = AddTab("GameSettingsControls", ms->T("Controls"));
+	LinearLayout *controlsSettings = AddTab("GameSettingsControls", ms->T("Controls"));
 	CreateControlsSettings(controlsSettings);
 
-	LinearLayout *audioSettings = AddTab("GameSettingsAudio", ms->T("Audio"));
+	/*LinearLayout *audioSettings = AddTab("GameSettingsAudio", ms->T("Audio"));
 	CreateAudioSettings(audioSettings);
 
 	LinearLayout *networkingSettings = AddTab("GameSettingsNetworking", ms->T("Networking"));
