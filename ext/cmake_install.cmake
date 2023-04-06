@@ -1,4 +1,4 @@
-# Install script for directory: /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext
+# Install script for directory: /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/armips/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/glew/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/cmake/cpu_features/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/snappy/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/udis86/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/SPIRV-Cross-build/cmake_install.cmake")
-  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/discord-rpc-build/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/armips/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/glew/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/cmake/cpu_features/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/snappy/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/udis86/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/SPIRV-Cross-build/cmake_install.cmake")
+  include("/home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/discord-rpc-build/cmake_install.cmake")
 
 endif()
 

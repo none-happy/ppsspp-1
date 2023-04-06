@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389
+CMAKE_SOURCE_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389
+CMAKE_BINARY_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/snappy//CMakeFiles/progress.marks
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles 0
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/snappy//CMakeFiles/progress.marks
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/clean
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/preinstall
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/preinstall
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles/VerifyGlobs.cmake
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles/VerifyGlobs.cmake
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/snappy/CMakeFiles/snappy.dir/rule:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/CMakeFiles/snappy.dir/rule
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/snappy/CMakeFiles/snappy.dir/rule
 .PHONY : ext/snappy/CMakeFiles/snappy.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ snappy: ext/snappy/CMakeFiles/snappy.dir/rule
 
 # fast build rule for target.
 snappy/fast:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/build
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/build
 .PHONY : snappy/fast
 
 snappy-c.o: snappy-c.cpp.o
@@ -191,7 +191,7 @@ snappy-c.o: snappy-c.cpp.o
 
 # target to build an object file
 snappy-c.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.o
 .PHONY : snappy-c.cpp.o
 
 snappy-c.i: snappy-c.cpp.i
@@ -199,7 +199,7 @@ snappy-c.i: snappy-c.cpp.i
 
 # target to preprocess a source file
 snappy-c.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.i
 .PHONY : snappy-c.cpp.i
 
 snappy-c.s: snappy-c.cpp.s
@@ -207,7 +207,7 @@ snappy-c.s: snappy-c.cpp.s
 
 # target to generate assembly for a file
 snappy-c.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-c.cpp.s
 .PHONY : snappy-c.cpp.s
 
 snappy-sinksource.o: snappy-sinksource.cpp.o
@@ -215,7 +215,7 @@ snappy-sinksource.o: snappy-sinksource.cpp.o
 
 # target to build an object file
 snappy-sinksource.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.o
 .PHONY : snappy-sinksource.cpp.o
 
 snappy-sinksource.i: snappy-sinksource.cpp.i
@@ -223,7 +223,7 @@ snappy-sinksource.i: snappy-sinksource.cpp.i
 
 # target to preprocess a source file
 snappy-sinksource.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.i
 .PHONY : snappy-sinksource.cpp.i
 
 snappy-sinksource.s: snappy-sinksource.cpp.s
@@ -231,7 +231,7 @@ snappy-sinksource.s: snappy-sinksource.cpp.s
 
 # target to generate assembly for a file
 snappy-sinksource.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-sinksource.cpp.s
 .PHONY : snappy-sinksource.cpp.s
 
 snappy-stubs-internal.o: snappy-stubs-internal.cpp.o
@@ -239,7 +239,7 @@ snappy-stubs-internal.o: snappy-stubs-internal.cpp.o
 
 # target to build an object file
 snappy-stubs-internal.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.o
 .PHONY : snappy-stubs-internal.cpp.o
 
 snappy-stubs-internal.i: snappy-stubs-internal.cpp.i
@@ -247,7 +247,7 @@ snappy-stubs-internal.i: snappy-stubs-internal.cpp.i
 
 # target to preprocess a source file
 snappy-stubs-internal.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.i
 .PHONY : snappy-stubs-internal.cpp.i
 
 snappy-stubs-internal.s: snappy-stubs-internal.cpp.s
@@ -255,7 +255,7 @@ snappy-stubs-internal.s: snappy-stubs-internal.cpp.s
 
 # target to generate assembly for a file
 snappy-stubs-internal.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy-stubs-internal.cpp.s
 .PHONY : snappy-stubs-internal.cpp.s
 
 snappy.o: snappy.cpp.o
@@ -263,7 +263,7 @@ snappy.o: snappy.cpp.o
 
 # target to build an object file
 snappy.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.o
 .PHONY : snappy.cpp.o
 
 snappy.i: snappy.cpp.i
@@ -271,7 +271,7 @@ snappy.i: snappy.cpp.i
 
 # target to preprocess a source file
 snappy.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.i
 .PHONY : snappy.cpp.i
 
 snappy.s: snappy.cpp.s
@@ -279,7 +279,7 @@ snappy.s: snappy.cpp.s
 
 # target to generate assembly for a file
 snappy.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/snappy/CMakeFiles/snappy.dir/build.make ext/snappy/CMakeFiles/snappy.dir/snappy.cpp.s
 .PHONY : snappy.cpp.s
 
 # Help Target
@@ -319,7 +319,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles/VerifyGlobs.cmake
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles/VerifyGlobs.cmake
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389
+CMAKE_SOURCE_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389
+CMAKE_BINARY_DIR = /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/ext/discord-rpc-build//CMakeFiles/progress.marks
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles 0
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/ext/discord-rpc-build//CMakeFiles/progress.marks
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/clean
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,23 +158,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/preinstall
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/preinstall
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles/VerifyGlobs.cmake
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles/VerifyGlobs.cmake
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/rule:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/rule
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/rule
 .PHONY : ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ discord-rpc: ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/rule
 
 # fast build rule for target.
 discord-rpc/fast:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build
 .PHONY : discord-rpc/fast
 
 __/discord-rpc/src/connection_unix.o: __/discord-rpc/src/connection_unix.cpp.o
@@ -191,7 +191,7 @@ __/discord-rpc/src/connection_unix.o: __/discord-rpc/src/connection_unix.cpp.o
 
 # target to build an object file
 __/discord-rpc/src/connection_unix.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.o
 .PHONY : __/discord-rpc/src/connection_unix.cpp.o
 
 __/discord-rpc/src/connection_unix.i: __/discord-rpc/src/connection_unix.cpp.i
@@ -199,7 +199,7 @@ __/discord-rpc/src/connection_unix.i: __/discord-rpc/src/connection_unix.cpp.i
 
 # target to preprocess a source file
 __/discord-rpc/src/connection_unix.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.i
 .PHONY : __/discord-rpc/src/connection_unix.cpp.i
 
 __/discord-rpc/src/connection_unix.s: __/discord-rpc/src/connection_unix.cpp.s
@@ -207,7 +207,7 @@ __/discord-rpc/src/connection_unix.s: __/discord-rpc/src/connection_unix.cpp.s
 
 # target to generate assembly for a file
 __/discord-rpc/src/connection_unix.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/connection_unix.cpp.s
 .PHONY : __/discord-rpc/src/connection_unix.cpp.s
 
 __/discord-rpc/src/discord_register_linux.o: __/discord-rpc/src/discord_register_linux.cpp.o
@@ -215,7 +215,7 @@ __/discord-rpc/src/discord_register_linux.o: __/discord-rpc/src/discord_register
 
 # target to build an object file
 __/discord-rpc/src/discord_register_linux.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.o
 .PHONY : __/discord-rpc/src/discord_register_linux.cpp.o
 
 __/discord-rpc/src/discord_register_linux.i: __/discord-rpc/src/discord_register_linux.cpp.i
@@ -223,7 +223,7 @@ __/discord-rpc/src/discord_register_linux.i: __/discord-rpc/src/discord_register
 
 # target to preprocess a source file
 __/discord-rpc/src/discord_register_linux.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.i
 .PHONY : __/discord-rpc/src/discord_register_linux.cpp.i
 
 __/discord-rpc/src/discord_register_linux.s: __/discord-rpc/src/discord_register_linux.cpp.s
@@ -231,7 +231,7 @@ __/discord-rpc/src/discord_register_linux.s: __/discord-rpc/src/discord_register
 
 # target to generate assembly for a file
 __/discord-rpc/src/discord_register_linux.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_register_linux.cpp.s
 .PHONY : __/discord-rpc/src/discord_register_linux.cpp.s
 
 __/discord-rpc/src/discord_rpc.o: __/discord-rpc/src/discord_rpc.cpp.o
@@ -239,7 +239,7 @@ __/discord-rpc/src/discord_rpc.o: __/discord-rpc/src/discord_rpc.cpp.o
 
 # target to build an object file
 __/discord-rpc/src/discord_rpc.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.o
 .PHONY : __/discord-rpc/src/discord_rpc.cpp.o
 
 __/discord-rpc/src/discord_rpc.i: __/discord-rpc/src/discord_rpc.cpp.i
@@ -247,7 +247,7 @@ __/discord-rpc/src/discord_rpc.i: __/discord-rpc/src/discord_rpc.cpp.i
 
 # target to preprocess a source file
 __/discord-rpc/src/discord_rpc.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.i
 .PHONY : __/discord-rpc/src/discord_rpc.cpp.i
 
 __/discord-rpc/src/discord_rpc.s: __/discord-rpc/src/discord_rpc.cpp.s
@@ -255,7 +255,7 @@ __/discord-rpc/src/discord_rpc.s: __/discord-rpc/src/discord_rpc.cpp.s
 
 # target to generate assembly for a file
 __/discord-rpc/src/discord_rpc.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/discord_rpc.cpp.s
 .PHONY : __/discord-rpc/src/discord_rpc.cpp.s
 
 __/discord-rpc/src/rpc_connection.o: __/discord-rpc/src/rpc_connection.cpp.o
@@ -263,7 +263,7 @@ __/discord-rpc/src/rpc_connection.o: __/discord-rpc/src/rpc_connection.cpp.o
 
 # target to build an object file
 __/discord-rpc/src/rpc_connection.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.o
 .PHONY : __/discord-rpc/src/rpc_connection.cpp.o
 
 __/discord-rpc/src/rpc_connection.i: __/discord-rpc/src/rpc_connection.cpp.i
@@ -271,7 +271,7 @@ __/discord-rpc/src/rpc_connection.i: __/discord-rpc/src/rpc_connection.cpp.i
 
 # target to preprocess a source file
 __/discord-rpc/src/rpc_connection.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.i
 .PHONY : __/discord-rpc/src/rpc_connection.cpp.i
 
 __/discord-rpc/src/rpc_connection.s: __/discord-rpc/src/rpc_connection.cpp.s
@@ -279,7 +279,7 @@ __/discord-rpc/src/rpc_connection.s: __/discord-rpc/src/rpc_connection.cpp.s
 
 # target to generate assembly for a file
 __/discord-rpc/src/rpc_connection.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/rpc_connection.cpp.s
 .PHONY : __/discord-rpc/src/rpc_connection.cpp.s
 
 __/discord-rpc/src/serialization.o: __/discord-rpc/src/serialization.cpp.o
@@ -287,7 +287,7 @@ __/discord-rpc/src/serialization.o: __/discord-rpc/src/serialization.cpp.o
 
 # target to build an object file
 __/discord-rpc/src/serialization.cpp.o:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.o
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.o
 .PHONY : __/discord-rpc/src/serialization.cpp.o
 
 __/discord-rpc/src/serialization.i: __/discord-rpc/src/serialization.cpp.i
@@ -295,7 +295,7 @@ __/discord-rpc/src/serialization.i: __/discord-rpc/src/serialization.cpp.i
 
 # target to preprocess a source file
 __/discord-rpc/src/serialization.cpp.i:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.i
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.i
 .PHONY : __/discord-rpc/src/serialization.cpp.i
 
 __/discord-rpc/src/serialization.s: __/discord-rpc/src/serialization.cpp.s
@@ -303,7 +303,7 @@ __/discord-rpc/src/serialization.s: __/discord-rpc/src/serialization.cpp.s
 
 # target to generate assembly for a file
 __/discord-rpc/src/serialization.cpp.s:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.s
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(MAKE) $(MAKESILENT) -f ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/build.make ext/discord-rpc-build/CMakeFiles/discord-rpc.dir/__/discord-rpc/src/serialization.cpp.s
 .PHONY : __/discord-rpc/src/serialization.cpp.s
 
 # Help Target
@@ -346,7 +346,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389/CMakeFiles/VerifyGlobs.cmake
-	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-fefb22103c2efdf6f2263af3bde48bd096129389 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -P /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91/CMakeFiles/VerifyGlobs.cmake
+	cd /home/happy/Downloads/EmuELEC-4.6/sources/PPSSPPSDL/PPSSPPSDL-e12ee21f7d987bbaffdedcd16e64b9373e070d91 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
